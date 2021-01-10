@@ -1,0 +1,33 @@
+name: Snekdown
+
+on:
+  push:
+    branches: [ main, develop, actions ]
+  pull_request:
+    branches: [ main, develop, actions ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Snekdown
+      run: wget https://github.com/Trivernis/snekdown/releases/latest/download/snekdown-linux-x86_64 -O snekdown
+    - name: Make executable
+      run: chmod +x snekdown
+    - name: Create dist
+      run: mkdir dist
+    - name: Build
+      run: ./snekdown render main.md dist/documentation.html
+    - name: Build PDF
+      run: ./snekdown render main.md dist/documentation.pdf
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: documentation
+        path: dist/*
