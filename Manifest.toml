@@ -1,0 +1,35 @@
+[metadata]
+language = 'en'
+author = 'Trivernis'
+title = 'Snekdown'
+
+[features]
+embed_external = true
+smart_arrows = true
+include_mathjax = true
+
+[imports]
+ignored_imports = []
+included_stylesheets = []
+included_bibliography = ['Bibliography.toml']
+included_glossaries = ['Glossary.toml']
+
+[pdf]
+display_header_footer = true
+footer_template = '''
+<div style="font-size: 10px; text-align: center; width: 100%;">
+    <span class="pageNumber"></span>/<span class="totalPages"></span>
+</div>'''
+
+[pdf.margin]
+top = 0.5
+bottom = 0.5
+
+[images]
+max_width = 700
+image_format = "png"
+
+[style]
+theme = 'MagicDark'
+
+[custom_attributes]

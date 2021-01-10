@@ -1,0 +1,42 @@
+body {
+    background-color: #112;
+}
+
+.content {
+    background-color: #223;
+    color: white;
+}
+
+code pre {
+    background-color: #334 !important;
+    color: white;
+}
+
+a {
+    color: #AAF
+}
+
+code.inlineCode {
+    background-color: #334;
+    color: white;
+}
+
+table tr:nth-child(1) {
+    background-color: #252535;
+}
+
+table tr:nth-child(odd) {
+    background-color: #252535;
+}
+
+table td, table th {
+    border-left: 1px solid white;
+}
+
+table th {
+    border-bottom: 1px solid white;
+}
+
+hr {
+    color: #88C;
+}
