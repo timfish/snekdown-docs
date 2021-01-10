@@ -1,4 +1,4 @@
-name: Rust
+name: Snekdown
 
 on:
   push:
@@ -17,13 +17,17 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install Snekdown
-      run: cargo install snekdown --all-features
+      run: wget https://github.com/Trivernis/snekdown/releases/latest/download/snekdown-linux-x86_64 -O snekdown
+    - name: Make executable
+      run: chmod +x snekdown
     - name: Create dist
       run: mkdir dist
     - name: Build
-      run: snekdown render main.md dist/index.html
+      run: ./snekdown render main.md dist/documentation.html
+    - name: Build PDF
+      run: ./snekdown render main.md dist/documentation.pdf
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
-        name: documentation.html
-        path: dist/index.html
+        name: documentation
+        path: dist/*
