@@ -2,6 +2,12 @@
 language = 'en'
 author = 'Trivernis'
 title = 'Snekdown'
+description = '''
+The Documentation for Snekdown.
+Snekdown is a parser and renderer for the extended Markdown syntax
+with the same name. It provides features like imports, image manipulation, bibliography, glossary, math etc.
+'''
+keywords = ['Parser', 'Markdown', 'HTML', 'Rust', 'Bibliography', 'AsciiMath']
 
 [features]
 embed_external = true

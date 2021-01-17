@@ -45,6 +45,14 @@ author = 'author'
 
 # Title of the document
 title = 'title'
+
+# A short description for the document preview
+description = '''
+Description
+'''
+
+# Keywords to find the document
+keywords = ['HTML', 'Snekdown']
 ```
 
 
