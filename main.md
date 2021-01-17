@@ -40,3 +40,7 @@
 - - - 
 
 <[chapters/images.md]
+
+- - -
+
+<[chapters/bibliography.md]
