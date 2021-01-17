@@ -37,11 +37,14 @@ It currently supports two keys:
 
 ```toml
 [metadata]
-# language setting of the document
+# Language setting of the document
 language = 'en'
 
-# author of the document
+# Author of the document
 author = 'author'
+
+# Title of the document
+title = 'title'
 ```
 
 

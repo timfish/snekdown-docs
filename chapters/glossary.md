@@ -49,3 +49,8 @@ You can force Snekdown to use the long form for an entry by writing
 
 ~~SHORT
 ~~HTML
+
+
+The list of glossary entries can be inserted with the `[[GLS]]` placeholder.
+
+[[GLS]]

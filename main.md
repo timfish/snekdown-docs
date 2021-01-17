@@ -7,7 +7,7 @@
 - - -
 ##[toc-hidden] Table of Contents
 
-[[TOC]]
+[[TOC]][ordered]
 
 - - -
 
@@ -54,3 +54,6 @@
 <[chapters/configuration.md]
 
 - - -
+
+<[chapters/placeholders.md]
+
