@@ -48,3 +48,9 @@
 - - -
 
 <[chapters/glossary.md]
+
+- - -
+
+<[chapters/configuration.md]
+
+- - -
