@@ -1,0 +1,8 @@
+
+[SHORT]
+long = "Long Form"
+description = "The description of the entry"
+
+[HTML]
+long = "Hypertext Markup Language"
+description = "The markup language of the web"

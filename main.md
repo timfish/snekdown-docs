@@ -44,3 +44,7 @@
 - - -
 
 <[chapters/bibliography.md]
+
+- - -
+
+<[chapters/glossary.md]
