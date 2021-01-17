@@ -57,3 +57,6 @@
 
 <[chapters/placeholders.md]
 
+- - -
+
+<[chapters/metadata.md]
