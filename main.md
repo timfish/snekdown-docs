@@ -1,8 +1,8 @@
-#[toc-hidden] || Snekdown Documentation (WIP)
+#[toc-hidden] || Snekdown Documentation
 
 || written in Snekdown on [[date]]
-
-
+|| [**Source**](https://github.com/Trivernis/snekdown-docs)
+|| [**Download Snekdown**](https://github.com/Trivernis/snekdown/releases)
 
 - - -
 ##[toc-hidden] Table of Contents
