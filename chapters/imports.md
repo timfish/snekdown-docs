@@ -17,7 +17,7 @@ Configurations can be imported with the same syntax.
 <[style.css][type=stylesheet]
 
 # import a configuration file
-<[Manifext.toml]
+<[Manifest.toml]
 
 # import bibliography
 <[MyBib.toml][type=bibliography]

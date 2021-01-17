@@ -95,7 +95,7 @@ included_stylesheets = ['style.css']
 # bibliography that should be included
 included_bibliography = ['Bibliography.toml']
 
-# glossary that sould be included
+# glossary that should be included
 included_glossaries = ['Glossary.toml']
 ```
 
@@ -153,12 +153,12 @@ do so in this section.
 format = "png"
 
 # the max width for the images.
-# if an image is larger than that it get's resized.
+# if an image is larger than that it gets resized.
 # (default: none)
 max_width = 700
 
 # the max width for the images.
-# if an image is larger than that it get's resized.
+# if an image is larger than that it gets resized.
 # (default: none)
 max_height = 500
 ```

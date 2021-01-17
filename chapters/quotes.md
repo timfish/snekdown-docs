@@ -17,7 +17,7 @@ Multiline Quotes:
 > This is a 
 > Multiline Quote
 
-You can even add add additional metadata to quotes, like the autor or year:
+You can even add additional metadata to quotes, like the autor or year:
 ```md
 [author=Trivernis year=2020 display='{{author}} - {{year}}']> This is a quote with metadata
 ```
