@@ -157,7 +157,7 @@ format = "png"
 # (default: none)
 max_width = 700
 
-# the max width for the images.
+# the max height for the images.
 # if an image is larger than that it gets resized.
 # (default: none)
 max_height = 500
